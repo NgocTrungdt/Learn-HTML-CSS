@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: RobotoCondensed, Arial;
+    font-size: 15px;
+}
+
+.menu-bar {
+    margin-left: 25px;
+    margin-right: 25px;
+    background: #009BDD;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    padding: 20px;
+    list-style: none;
+    font-size: 17px;
+}
+
+.menu-bar ul li {
+    color: #fff;
+    margin-right: 45px;
+}
+
+.menu-bar ul li .fa {
+    padding-right: 10px;
+}
